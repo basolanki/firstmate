@@ -1,0 +1,61 @@
+===== glyph '#' : real Claude Code 2.1.283 (Claude Code) composer, 100x40 pane (plain capture, bottom rows) =====
+ ▐▛███▛█   Claude Code v2.1.283
+▝▜██████▀  Opus 5.5 (1M context) · Claude Max
+ ▝▝   ▝▝   ~/.no-mistakes/worktrees/3bb5d30aa0d7/01M3FRTS3HM3JHATE9C730CM51 · /rc
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ fm-wrap-probe-hash #0 #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11 #12 #13 #14 #15 #16 #17 #18 #19 #20 #21
+  #22 #23 #24 #25 #26 #27 #28 #29 #30 #31 #32 #33 #34 #35 #36 #37 #38 #39 #40 #41 #42 #43 #44 #45
+  #46 #47 #48 #49 #50 #51 #52 #53 #54 #55 #56 #57 #58 #59 #60
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |
+  ⏵⏵ auto mode on (shift+tab to cycle)
+--- rows starting with indent+'#' below the ❯ line: 2
+BASE 503ba82 classifier (herdr cursorless caps): verdict=unknown
+HEAD d3b0349 classifier (herdr cursorless caps): verdict=pending
+
+===== glyph '$' : real Claude Code 2.1.283 (Claude Code) composer, 100x40 pane (plain capture, bottom rows) =====
+ ▐▛███▛█   Claude Code v2.1.283
+▝▜██████▀  Opus 5.5 (1M context) · Claude Max
+ ▝▝   ▝▝   ~/.no-mistakes/worktrees/3bb5d30aa0d7/01M3FRTS3HM3JHATE9C730CM51 · /rc
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ fm-wrap-probe-dollar $0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14 $15 $16 $17 $18 $19 $20
+  $21 $22 $23 $24 $25 $26 $27 $28 $29 $30 $31 $32 $33 $34 $35 $36 $37 $38 $39 $40 $41 $42 $43 $44
+  $45 $46 $47 $48 $49 $50 $51 $52 $53 $54 $55 $56 $57 $58 $59 $60
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |  | 7d 52%
+  ⏵⏵ auto mode on (shift+tab to cycle)
+--- rows starting with indent+'$' below the ❯ line: 2
+BASE 503ba82 classifier (herdr cursorless caps): verdict=pending
+HEAD d3b0349 classifier (herdr cursorless caps): verdict=pending
+
+===== glyph '%' : real Claude Code 2.1.283 (Claude Code) composer, 100x40 pane (plain capture, bottom rows) =====
+ ▐▛███▛█   Claude Code v2.1.283
+▝▜██████▀  Opus 5.5 (1M context) · Claude Max
+ ▝▝   ▝▝   ~/.no-mistakes/worktrees/3bb5d30aa0d7/01M3FRTS3HM3JHATE9C730CM51 · /rc
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ fm-wrap-probe-pct %0 %1 %2 %3 %4 %5 %6 %7 %8 %9 %10 %11 %12 %13 %14 %15 %16 %17 %18 %19 %20 %21
+  %22 %23 %24 %25 %26 %27 %28 %29 %30 %31 %32 %33 %34 %35 %36 %37 %38 %39 %40 %41 %42 %43 %44 %45
+  %46 %47 %48 %49 %50 %51 %52 %53 %54 %55 %56 %57 %58 %59 %60
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |  | 7d 52%
+  ⏵⏵ auto mode on (shift+tab to cycle)
+--- rows starting with indent+'%' below the ❯ line: 2
+BASE 503ba82 classifier (herdr cursorless caps): verdict=unknown
+HEAD d3b0349 classifier (herdr cursorless caps): verdict=pending
+
+===== glyph '>' : real Claude Code 2.1.283 (Claude Code) composer, 100x40 pane (plain capture, bottom rows) =====
+ ▐▛███▛█   Claude Code v2.1.283
+▝▜██████▀  Opus 5.5 (1M context) · Claude Max
+ ▝▝   ▝▝   ~/.no-mistakes/worktrees/3bb5d30aa0d7/01M3FRTS3HM3JHATE9C730CM51 · /rc
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ fm-wrap-probe-gt >0 >1 >2 >3 >4 >5 >6 >7 >8 >9 >10 >11 >12 >13 >14 >15 >16 >17 >18 >19 >20 >21
+  >22 >23 >24 >25 >26 >27 >28 >29 >30 >31 >32 >33 >34 >35 >36 >37 >38 >39 >40 >41 >42 >43 >44 >45
+  >46 >47 >48 >49 >50 >51 >52 >53 >54 >55 >56 >57 >58 >59 >60
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |  | 7d 52%
+  ⏵⏵ auto mode on (shift+tab to cycle)
+--- rows starting with indent+'>' below the ❯ line: 0
+BASE 503ba82 classifier (herdr cursorless caps): verdict=unknown
+HEAD d3b0349 classifier (herdr cursorless caps): verdict=pending
+
+After clearing: BASE verdict=empty HEAD verdict=empty

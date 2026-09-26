@@ -1,0 +1,25 @@
+===== real Claude Code frame left on screen after kill -9; real bash prompt (PS1='$ ') below the closing rule =====
+⚠ 1 MCP server needs authentication · run /mcp
+                                                                        Not logged in · Run /login
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ fm-dead-shell-probe #0 #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11 #12 #13 #14 #15 #16 #17 #18 #19 #20
+  #21 #22 #23 #24 #25 #26 #27 #28 #29 #30 #31 #32 #33 #34 #35 #36 #37 #38 #39 #40 #41 #42 #43 #44
+  #45 #46 #47 #48 #49 #50 #51 #52 #53 #54 #55 #56 #57 #58 #59 #60Killed: 9
+$ ──────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |
+  ⏵⏵ auto mode on (shift+tab to cycle)
+BASE 503ba82 classifier (herdr cursorless caps): verdict=unknown
+HEAD d3b0349 classifier (herdr cursorless caps): verdict=unknown
+
+===== same pane after pressing Enter at the real bash prompt: prompts now sit BELOW Claude's closing rule =====
+                                                                        Not logged in · Run /login
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ fm-dead-shell-probe #0 #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11 #12 #13 #14 #15 #16 #17 #18 #19 #20
+  #21 #22 #23 #24 #25 #26 #27 #28 #29 #30 #31 #32 #33 #34 #35 #36 #37 #38 #39 #40 #41 #42 #43 #44
+  #45 #46 #47 #48 #49 #50 #51 #52 #53 #54 #55 #56 #57 #58 #59 #60Killed: 9
+$ ──────────────────────────────────────────────────────────────────────────────────────────────────
+$ Opus 5.5 (1M context) | 0 |
+$ ⏵⏵ auto mode on (shift+tab to cycle)
+$
+BASE 503ba82 classifier (herdr cursorless caps): verdict=unknown
+HEAD d3b0349 classifier (herdr cursorless caps): verdict=unknown

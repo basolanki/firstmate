@@ -1,0 +1,67 @@
+== pass 1: max-defer attempt, Enter swallowed (shim) ==
+typed (send-keys -l) calls so far: 1
+swallowed Enters: 3
+composer state (daemon's tmux reader): pending
+wedge marker present: yes
+--- pane (real Claude) ---
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ FIRSTMATE_OP: v1 away-supervisor: Supervisor escalate (1 event(s)): needs-decision: lab probe,
+  please just reply LAB-OK-own; ticket refs T1 T2 T3 T4 T5 T6 T7 T8 T9 T10 T11 T12 T13 T14 T15 T16
+  T17 T18 T19 T20 T21 T22 T23 T24 T25 T26 T27 T28 T29 T30 (pre-read; re-arm not needed — watcher
+  daemon-managed)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |  | 7d 52%
+  ⏵⏵ auto mode on (shift+tab to cycle)
+== pass 2: next max-defer pass, real Enter path (no shim swallowing) ==
+retype (send-keys -l) calls in pass 2: 0
+Enter calls in pass 2: 1
+composer state now: pending
+buffer still holds escalation: yes
+wedge marker fresh (<60s): yes
+--- pane (real Claude) ---
+                                    Removed 1 invisible character · review and press Enter to send
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ FIRSTMATE_OP: v1 away-supervisor: Supervisor escalate (1 event(s)): needs-decision: lab probe,
+  please just reply LAB-OK-own; ticket refs T1 T2 T3 T4 T5 T6 T7 T8 T9 T10 T11 T12 T13 T14 T15 T16
+  T17 T18 T19 T20 T21 T22 T23 T24 T25 T26 T27 T28 T29 T30 (pre-read; re-arm not needed — watcher
+  daemon-managed)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |  | 7d 52%
+  ⏵⏵ auto mode on (shift+tab to cycle)
+== pass 3: next max-defer pass, real Enter path (no shim swallowing) ==
+retype (send-keys -l) calls in pass 3: 0
+Enter calls in pass 3: 1
+composer state now: empty
+buffer still holds escalation: no
+wedge marker fresh (<60s): no
+--- pane (real Claude) ---
+  T17 T18 T19 T20 T21 T22 T23 T24 T25 T26 T27 T28 T29 T30 (pre-read; re-arm not needed — watcher
+  daemon-managed)
+· Scurrying… (2s · thinking)
+                                    Removed 1 invisible character · review and press Enter to send
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 0 |  | 7d 52%
+  ⏵⏵ auto mode on (shift+tab to cycle) · ← 2 agents
+--- daemon log ---
+[2026-09-26T17:18:10-0400] inject failed at Enter confirmation: submit unconfirmed after 3 retries (verdict=pending, bytes=307, text may be in composer)
+[2026-09-26T17:18:10-0400] ERROR: away-mode escalation undelivered 600s; last delivery failure: Enter confirmation: submit unconfirmed after 3 retries (verdict=pending, bytes=307, text may be in composer). Buffer + wake-queue preserved; alarm marker written.
+[2026-09-26T17:18:12-0400] inject failed at Enter for this supervisor's own digest held in the composer: submit unconfirmed (state=pending)
+[2026-09-26T17:18:14-0400] inject recovered: Enter submitted this supervisor's own digest held in the composer (never retyped)
+[2026-09-26T17:18:14-0400] inject recovered: max-defer flush succeeded after 606s undelivered
+--- pane 10s after last pass ---
+ ▝▝   ▝▝   ~/.no-mistakes/worktrees/3bb5d30aa0d7/01M3FRTS3HM3JHATE9C730CM51 · /rc
+❯ FIRSTMATE_OP: v1 away-supervisor: Supervisor escalate (1 event(s)): needs-decision: lab probe,
+  please just reply LAB-OK-own; ticket refs T1 T2 T3 T4 T5 T6 T7 T8 T9 T10 T11 T12 T13 T14 T15 T16
+  T17 T18 T19 T20 T21 T22 T23 T24 T25 T26 T27 T28 T29 T30 (pre-read; re-arm not needed — watcher
+  daemon-managed)
+⏺ Skill(afk)
+  ⎿  Successfully loaded skill
+⏺ Running 1 shell command…
+· Scurrying… (12s · ↓ 668 tokens · thought for 2s)
+────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Opus 5.5 (1M context) | 73.4k |  | 7d 52%
+  ⏵⏵ auto mode on (shift+tab to cycle) · ← 2 agents
