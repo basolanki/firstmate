@@ -1,0 +1,216 @@
+[
+  {
+    "name": "baseline-codex-scout",
+    "result": "pass",
+    "live": true,
+    "detail": "Original spawn reproduced the missing-inbox failure in a real tmux worker.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": false,
+      "handled_is_dir": false,
+      "entries": [],
+      "listing_error": "FileNotFoundError"
+    },
+    "before_delivery": {
+      "inbox_is_dir": false,
+      "handled_is_dir": false
+    },
+    "seconds": 5.29
+  },
+  {
+    "name": "grok-ship",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 5.64
+  },
+  {
+    "name": "grok-scout",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 6.1
+  },
+  {
+    "name": "grok-secondmate",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 2.73
+  },
+  {
+    "name": "codex-ship",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 6.12
+  },
+  {
+    "name": "codex-scout",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 5.91
+  },
+  {
+    "name": "codex-secondmate",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 3.61
+  },
+  {
+    "name": "claude-ship",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 6.4
+  },
+  {
+    "name": "claude-scout",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 6.94
+  },
+  {
+    "name": "claude-secondmate",
+    "result": "pass",
+    "live": true,
+    "detail": "Installed CLI version command ran; its launch then listed the correct empty inbox and handled directory before any fm-send.",
+    "worker": {
+      "export_matches_expected": true,
+      "inbox_is_dir": true,
+      "handled_is_dir": true,
+      "entries": [
+        "handled"
+      ],
+      "listing_error": null,
+      "ready_before_launch_delivery": true
+    },
+    "before_delivery": {
+      "inbox_is_dir": true,
+      "handled_is_dir": true
+    },
+    "seconds": 4.18
+  },
+  {
+    "name": "blocked-codex-scout",
+    "result": "pass",
+    "live": true,
+    "detail": "An occupied inbox pathname stops spawn before CLI launch; no worker receipt was created.",
+    "seconds": 3.34
+  }
+]

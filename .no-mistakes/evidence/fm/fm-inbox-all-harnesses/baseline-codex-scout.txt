@@ -1,0 +1,52 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/home
+spawned inbox-lab-baseline-codex-scout-46199 harness=codex kind=scout window=primary:fm-inbox-lab-baseline-codex-scout-46199 worktree=/Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/pool/.treehouse/baseline-codex-scout-767322/1/baseline-codex-scout
+
+WORKER RECEIPT
+{"export_matches_expected": true, "inbox_is_dir": false, "handled_is_dir": false, "entries": [], "listing_error": "FileNotFoundError"}
+
+REAL PANE
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ treehouse get
+🌳 Setting up worktree...
+🌳 Entered worktree at /Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/pool/.treehouse/baseline-codex-scou
+t-767322/1/baseline-codex-scout. Type 'exit' to return.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+BrkrBnkrs-Mac-mini:baseline-codex-scout brkrbnkr$ cd -- '/Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/p
+ool/.treehouse/baseline-codex-scout-767322/1/baseline-codex-scout'
+BrkrBnkrs-Mac-mini:baseline-codex-scout brkrbnkr$ export GOTMPDIR=/tmp/fm-inbox-lab-baseline-codex-scout-46199/gotmp
+BrkrBnkrs-Mac-mini:baseline-codex-scout brkrbnkr$ export COMPACT_ADVISER_DISABLE=1
+BrkrBnkrs-Mac-mini:baseline-codex-scout brkrbnkr$ export FM_TASK_ID=inbox-lab-baseline-codex-scout-46199
+BrkrBnkrs-Mac-mini:baseline-codex-scout brkrbnkr$ . '/tmp/fm-inbox-lab-baseline-codex-scout-46199+48815ec37fd7ba51ca8889dd1a6ce79756849d838b1b6828769c1701377451
+fb/launch.s1791666750.46256.20866.sh'
+codex-cli 0.162.1
+INBOX_LAUNCH_RECEIPT {"export_matches_expected": true, "inbox_is_dir": false, "handled_is_dir": false, "entries": [], "listing_error": "FileNotFoundError"}
+BrkrBnkrs-Mac-mini:baseline-codex-scout brkrbnkr$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

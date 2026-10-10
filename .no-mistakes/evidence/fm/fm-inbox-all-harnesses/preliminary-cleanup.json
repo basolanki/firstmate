@@ -1,0 +1,17 @@
+{
+  "removed_owned_launch_dirs": [
+    "inbox-lab-claude-scout-1629",
+    "inbox-lab-baseline-codex-scout-90698",
+    "inbox-lab-codex-ship-1629",
+    "inbox-lab-baseline-codex-scout-1629",
+    "inbox-lab-claude-secondmate-1629",
+    "inbox-lab-codex-scout-1629",
+    "inbox-lab-grok-scout-1629",
+    "inbox-lab-grok-secondmate-1629",
+    "inbox-lab-codex-secondmate-1629",
+    "inbox-lab-grok-ship-1629",
+    "inbox-lab-claude-ship-1629"
+  ],
+  "first_run": "all scenarios passed; hook-permission cleanup repaired",
+  "second_run": "observer setup failed to recognize generated launch filename; cleaned before retry"
+}

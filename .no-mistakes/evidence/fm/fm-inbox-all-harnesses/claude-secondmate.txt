@@ -1,0 +1,54 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/home
+WARNING: watcher still down (same stale episode; last beat: 50s ago, grace 300s) - full banner already printed this episode.
+warning: secondmate inbox-lab-claude-secondmate-46199 sync skipped before launch: primary default-branch commit cannot be resolved
+spawned inbox-lab-claude-secondmate-46199 harness=claude kind=secondmate mode=secondmate yolo=off window=primary:fm-inbox-lab-claude-secondmate-46199 worktree=/private/var/folders/8f/c4h3c8nd0zb1zbxkf16lsf6m0000gn/T/fm-lab.3wgnheo1
+
+WORKER RECEIPT
+{"export_matches_expected": true, "inbox_is_dir": true, "handled_is_dir": true, "entries": ["handled"], "listing_error": null}
+
+REAL PANE
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ export GOTMPDIR=/tmp/fm-inbox-lab-claude-secondmate-46199/gotmp
+bash-3.2$ export COMPACT_ADVISER_DISABLE=1
+bash-3.2$ . '/tmp/fm-inbox-lab-claude-secondmate-46199+48815ec37fd7ba51ca8889dd1a6ce79756849d838b1b6828769c1701377451fb/launch.s1791666796.25552.5177.sh'
+2.1.296 (Claude Code)
+INBOX_LAUNCH_RECEIPT {"export_matches_expected": true, "inbox_is_dir": true, "handled_is_dir": true, "entries": ["handled"], "listing_error": null}
+bash-3.2$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

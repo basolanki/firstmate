@@ -1,0 +1,56 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home /Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/home
+WARNING: watcher still down (same stale episode; last beat: 20s ago, grace 300s) - full banner already printed this episode.
+warning: /Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/home/data/inbox-lab-codex-ship-46199/launch-brief.md records no ship branch; defaulting to legacy branch fm/inbox-lab-codex-ship-46199
+warning: /Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/home/data/inbox-lab-codex-ship-46199/launch-brief.md records no delivery contract line (scaffolded before ship briefs recorded one); launching on the explicit --mode local-only - confirm its definition of done matches
+notice: inbox-lab-codex-ship-46199 ships mode=local-only while the standing posture for codex-ship is no-mistakes - less rigor than the captain's standing posture; proceed only on a current explicit captain instruction or an intake judgment you can state
+spawned inbox-lab-codex-ship-46199 harness=codex kind=ship mode=local-only yolo=off window=primary:fm-inbox-lab-codex-ship-46199 worktree=/Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/pool/.treehouse/codex-ship-9d2985/1/codex-ship
+
+WORKER RECEIPT
+{"export_matches_expected": true, "inbox_is_dir": true, "handled_is_dir": true, "entries": ["handled"], "listing_error": null}
+
+REAL PANE
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ treehouse get
+A new version of treehouse is available: v3.1.0 → v3.1.2
+Run "treehouse update" to update
+
+🌳 Setting up worktree...
+🌳 Entered worktree at /Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/pool/.treehouse/codex-ship-9d2985/1
+/codex-ship. Type 'exit' to return.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+BrkrBnkrs-Mac-mini:codex-ship brkrbnkr$ cd -- '/Users/brkrbnkr/.no-mistakes/worktrees/3bb5d30aa0d7/01M4KT6VREVW4ZSDYE3RTXE6DX/.inbox-live-validation/pool/.treeh
+ouse/codex-ship-9d2985/1/codex-ship'
+BrkrBnkrs-Mac-mini:codex-ship brkrbnkr$ export GOTMPDIR=/tmp/fm-inbox-lab-codex-ship-46199/gotmp
+BrkrBnkrs-Mac-mini:codex-ship brkrbnkr$ export COMPACT_ADVISER_DISABLE=1
+BrkrBnkrs-Mac-mini:codex-ship brkrbnkr$ export FM_TASK_ID=inbox-lab-codex-ship-46199
+BrkrBnkrs-Mac-mini:codex-ship brkrbnkr$ . '/tmp/fm-inbox-lab-codex-ship-46199+48815ec37fd7ba51ca8889dd1a6ce79756849d838b1b6828769c1701377451fb/launch.s179166677
+0.75832.9518.sh'
+codex-cli 0.162.1
+INBOX_LAUNCH_RECEIPT {"export_matches_expected": true, "inbox_is_dir": true, "handled_is_dir": true, "entries": ["handled"], "listing_error": null}
+BrkrBnkrs-Mac-mini:codex-ship brkrbnkr$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
